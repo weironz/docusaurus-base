@@ -1,0 +1,11 @@
+name: "willdocs"
+
+services:
+  willdocs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: willdocs
+    ports:
+      - "80:80"
+    restart: unless-stopped
