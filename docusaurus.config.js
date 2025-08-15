@@ -75,19 +75,262 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'ai', // 必须与 index.js 中的 id 'python' 严格对应
-        path: 'docs/ai', // 文档源文件所在的文件夹路径
-        routeBasePath: 'docs/ai', // 访问此知识库的 URL 路径 (与 index.js 跳转逻辑匹配)
-        sidebarPath: './sidebars.js', // 指向统一的侧边栏配置文件
+        id: 'ai',
+        path: 'docs/ai',
+        routeBasePath: 'docs/ai',
+        sidebarPath: './sidebars.js',
       },
     ],
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'willdocs', // 必须与 index.js 中的 id 'python' 严格对应
-        path: 'docs/willdocs', // 文档源文件所在的文件夹路径
-        routeBasePath: 'docs/willdocs', // 访问此知识库的 URL 路径 (与 index.js 跳转逻辑匹配)
-        sidebarPath: './sidebars.js', // 指向统一的侧边栏配置文件
+        id: 'application',
+        path: 'docs/application',
+        routeBasePath: 'docs/application',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'bigdata',
+        path: 'docs/bigdata',
+        routeBasePath: 'docs/bigdata',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'computer',
+        path: 'docs/computer',
+        routeBasePath: 'docs/computer',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'database',
+        path: 'docs/database',
+        routeBasePath: 'docs/database',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'devops',
+        path: 'docs/devops',
+        routeBasePath: 'docs/devops',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'django',
+        path: 'docs/django',
+        routeBasePath: 'docs/django',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docker',
+        path: 'docs/docker',
+        routeBasePath: 'docs/docker',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'flask',
+        path: 'docs/flask',
+        routeBasePath: 'docs/flask',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'frontend',
+        path: 'docs/frontend',
+        routeBasePath: 'docs/frontend',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'golang',
+        path: 'docs/golang',
+        routeBasePath: 'docs/golang',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'java',
+        path: 'docs/java',
+        routeBasePath: 'docs/java',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'javascript',
+        path: 'docs/javascript',
+        routeBasePath: 'docs/javascript',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'kubernetes',
+        path: 'docs/kubernetes',
+        routeBasePath: 'docs/kubernetes',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'linux',
+        path: 'docs/linux',
+        routeBasePath: 'docs/linux',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'logging',
+        path: 'docs/logging',
+        routeBasePath: 'docs/logging',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'message',
+        path: 'docs/message',
+        routeBasePath: 'docs/message',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'monitoring',
+        path: 'docs/monitoring',
+        routeBasePath: 'docs/monitoring',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'observability',
+        path: 'docs/observability',
+        routeBasePath: 'docs/observability',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'python',
+        path: 'docs/python',
+        routeBasePath: 'docs/python',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'service-mesh',
+        path: 'docs/service-mesh',
+        routeBasePath: 'docs/service-mesh',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'storage',
+        path: 'docs/storage',
+        routeBasePath: 'docs/storage',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'tools',
+        path: 'docs/tools',
+        routeBasePath: 'docs/tools',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'typescript',
+        path: 'docs/typescript',
+        routeBasePath: 'docs/typescript',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'virtualization',
+        path: 'docs/virtualization',
+        routeBasePath: 'docs/virtualization',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'vmware',
+        path: 'docs/vmware',
+        routeBasePath: 'docs/vmware',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'vuejs',
+        path: 'docs/vuejs',
+        routeBasePath: 'docs/vuejs',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'willdocs',
+        path: 'docs/willdocs',
+        routeBasePath: 'docs/willdocs',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'windows',
+        path: 'docs/windows',
+        routeBasePath: 'docs/windows',
+        sidebarPath: './sidebars.js',
       },
     ],
   ],
